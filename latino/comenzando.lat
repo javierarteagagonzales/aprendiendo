@@ -1,0 +1,69 @@
+escribir("Hola Mundo, Latino!")
+// Comentario
+# Comentario 2
+
+x = 5            #Declaramos una variable con el nombre de X, y le hemos asignado un valor de 5
+y = x + 2        #Declaramos una variable con el nombre de Y, y le hemos asignado el valor de X más 2
+escribir (y)     //En esta linea de código escribiremos en pantalla el valor de Y el cual tiene el valor de X + 2
+
+# Declaraciones de múltiples variables
+a, b, c = 1, 2, 3    #la variable a=1, b=2, y c=3
+a, b, c = 1, 2       #la variable a=1, b=2, y c = nulo (vacío)
+a, b = 1, 2, 3       #la variable a=1, b=2 se descarta el valor 3 ya que no fue asignado a una variable
+
+#Concatenar
+x = 2 + 3                  //Aquí se están sumando los valores numéricos
+y = 2 .. 3                 //Aquí se están concatenado los valores numéricos
+escribir(x .. " " .. y)    //Aquí se están agregando las dos variables y se le añadió un espacio en blanco para separarlas
+
+# Operadores condicionales
+numero = -5                                                #Creamos una variable con un valor de -5
+mensaje = (numero < 0) ? " es negativo" : " es positivo"   #Creamos una nueva variable y a esta le asignamos el operador condicional.
+escribir ("El número " .. numero .. mensaje)               #El mensaje seria: El número -5 es negativo.
+
+#Potencia
+x = 5
+y = 2
+escribir(mate.pot(x,y))    //El resultado sería 25
+
+/*
+El operador ~= utiliza las expresiones regulares
+en cadenas para hacer patrones de búsqueda.
+
+La condicional SI, devolverá:
+"x inicia con hola"
+*/
+
+x = "hola mundo"
+
+si x ~= "^hola"
+  escribir("x inicia con hola")
+sino
+  escribir("x NO inicia con hola")
+fin
+
+#LISTA
+carro = ["Nissan", "Volvo", "BMW"]
+escribir(carro[0])     //Devolverá Nissan
+
+#DICCIONARIO
+/*
+En este ejemplo se creara un diccionario
+con algunas propiedades para luego ser escritas en pantalla
+*/
+
+persona =  {"nombre": "Melvin", "apellido": "Guerrero", "edad": 50, "etimología": "Latino"}
+escribir(persona.nombre)     //Devolverá Melvin
+
+# Operador tipo
+x = ""
+y = nulo
+escribir(tipo(x))     //Devolverá un valor de cadena
+escribir(tipo(y))     //Devolverá un valor nulo
+
+#anumero
+x = "100"
+escribir(tipo(x))     //Devolverá cadena
+
+x = anumero("100")
+escribir(tipo(x))     //Devolverá decimal
