@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a73db606016065a7",
+        "id": "450bb43e1e24967c",
         "type": "tabs",
         "children": [
           {
-            "id": "a93f844772596a09",
+            "id": "e05744569824da45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inicio.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -32,6 +28,21 @@
         "id": "99640db6c828b43d",
         "type": "tabs",
         "children": [
+          {
+            "id": "8520e898d34791ef",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
           {
             "id": "fd02a71d420c3f40",
             "type": "leaf",
@@ -65,7 +76,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inicio.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inicio.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inicio.md"
+                "file": "Untitled.canvas"
               }
             }
           }
@@ -146,8 +158,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a93f844772596a09",
+  "active": "fd02a71d420c3f40",
   "lastOpenFiles": [
-    "Inicio.md"
+    "Inicio.md",
+    "Untitled.canvas"
   ]
 }
